@@ -16,7 +16,7 @@ if initialize_session "google_calendar"; then
 
   # Select the default active window on session creation.
   # select_window 0
-  run_cmd "~/./nvim ."
+  run_cmd "nvim ."
 
 fi
 

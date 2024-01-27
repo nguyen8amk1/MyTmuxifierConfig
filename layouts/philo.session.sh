@@ -13,7 +13,7 @@ if initialize_session "philo"; then
   # load_window "example"
   # Select the default active window on session creation.
   # select_window 1
-  run_cmd "~/./nvim ."
+  run_cmd "nvim ."
 fi
 
 # Finalize session creation and switch/attach to it.
